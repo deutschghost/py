@@ -25,3 +25,19 @@ print residents['Puffin'] # Prints Puffin's room number
 # Your code here!
 print residents["Sloth"]
 print residents["Burmese Python"]
+
+#example4
+menu = {} # Empty dictionary
+menu['Chicken Alfredo'] = 14.50 # Adding new key-value pair
+print menu['Chicken Alfredo']
+
+# Your code here: Add some dish-price pairs to menu!
+menu['Chicken Alfredo'] = 14.5
+menu['Spam'] = 2.50
+
+menu['Chicken Alfredo'] = 1
+menu['Steak'] = 2
+menu['French Fries'] = 3
+
+print "There are " + str(len(menu)) + " items on the menu."
+print menu
